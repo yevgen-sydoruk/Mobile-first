@@ -1,29 +1,82 @@
 main {
-  margin-top: 60px;
+    margin-top: 60px;
 }
 
 main h1 {
-  margin: 0 10px;
-  text-align: center;
-  font-family: "Amatic SC", cursive;
-  font-size: 65px;
+    margin: 0 10px;
+    text-align: center;
+    font-family: "Amatic SC", cursive;
+    font-size: 65px;
 }
 
 main h2 {
-  margin: 18px 0 12px 0;
-  border-bottom: 1px solid #5c4f41;
-  font-family: "Special Elite", cursive;
-  font-size: 24px;
+    margin: 18px 0 12px 0;
+    border-bottom: 1px solid #5c4f41;
+    font-family: "Special Elite", cursive;
+    font-size: 24px;
 }
 
 main h3 {
-  margin: 18px 0 12px 0;
-  border-bottom: 1px solid #5c4f41;
-  font-family: "Special Elite", cursive;
-  font-size: 18px;
+    margin: 18px 0 12px 0;
+    border-bottom: 1px solid #5c4f41;
+    font-family: "Special Elite", cursive;
+    font-size: 18px;
 }
 
 main p {
-  font-family: "Roboto", sans-serif;
-  margin-top: 0;
+    font-family: "Roboto", sans-serif;
+    margin-top: 0;
 }
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.coffee-basics {
+    width: 80%;
+    display: flex;
+    margin-bottom: 100px;
+}
+.coffee-basics_left {
+    width: 100%;
+    flex: 1;
+    margin: 10px;
+}
+.coffee-basics_left img {
+    width: 100%;
+    /* flex: 1;
+    margin: 10px; */
+}
+.coffee-basics_right {
+    flex: 2;
+    margin: 10px;
+}
+.coffee-basics_right img {
+    width: 80%;
+}
+.group {
+    display: flex;
+    flex-direction: row;
+}
+.item {
+    flex: 1;
+    margin: 30px;
+}
+.item img {
+    width: 100%;
+
+    flex: 1;
+}
+.bg-primary {
+    background-color: burlywood;
+    margin-bottom: 100px;
+}
+/* @media all and (min-width: 800px) {
+    section {
+        padding: 0 10%;
+    }
+
+    .group {
+        flex-direction: row;
+    }
+} */
